@@ -1,4 +1,4 @@
-### Step 1. Prepare data
+### Step 1. Prepare data 2
 	A folder contains a list of legal articles 
 	A json file contains all documents
 
