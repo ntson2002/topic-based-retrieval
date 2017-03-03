@@ -19,9 +19,11 @@
     INPUT=data/all_articles.json
     OUTPUT=output/model_TFIDF_MDS.pkl
     python document-indexing.py --index_type mds --file_type json --input $INPUT --output $OUTPUT
-    ```
+```
+
 ### Step 3. Build topic vectors from corpus
     1) Build topic model file from corpus
+
 ```sh
     echo "=========================================="
     echo "Creating topic vectors ..."
