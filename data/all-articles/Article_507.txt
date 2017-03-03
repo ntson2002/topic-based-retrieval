@@ -1,0 +1,3 @@
+Set-offs between Obligations with Different Places of Performance
+Set-offs may be effected even if the place of performance of both obligations are different .
+In such case , the party who intends to effect the set-off shall be liable for any damages suffered by the counterparty as result of such set-off .

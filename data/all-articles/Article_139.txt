@@ -1,0 +1,2 @@
+Commencement of Period
+When a period is defined by the hour , the period commences immediately at the specified time .

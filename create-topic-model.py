@@ -57,7 +57,33 @@ def create_topic_vectors(path_json, save_path):
     #     print len(topic_dist)
     #     print i, dis.cosine(topic_dist, X[0])
 
+
+import optparse
+
 if __name__ == '__main__':
-    path_json = "data/all_articles.json"
-    save_path = "output/topic.pickle"
-    create_topic_vectors(path_json, save_path)
+    # path_json = "data/all_articles.json"
+    # save_path = "output/topic.pickle"
+    # create_topic_vectors(path_json, save_path)
+
+    optparser = optparse.OptionParser()
+
+    optparser.add_option(
+        "-f", "--file_type", default="json",
+        help="{json,folder} : a json file contain all articles or a folder contains all txt files"
+    )
+    optparser.add_option(
+        "-i", "--input", default="data/all_articles.json",
+        help="path of json file or folder"
+    )
+    optparser.add_option(
+        "-o", "--output", default="output/topic.pickle",
+        help="output"
+    )
+
+
+    opts = optparser.parse_args()[0]
+    print opts
+    if opts.file_type == "json":
+        create_topic_vectors(opts.input, opts.output)
+    else:  # opts.file_type == "folder":
+        print "coming soon"

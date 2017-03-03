@@ -1,0 +1,5 @@
+Director
+-LRB- 1 -RRB- 
+A juridical person must have one or more director -LRB- s -RRB- .
+-LRB- 2 -RRB- 
+In cases there is more than one director , unless otherwise provided in the articles of incorporation or act of endowment , the business of the juridical person shall be determined by the majority of all directors .

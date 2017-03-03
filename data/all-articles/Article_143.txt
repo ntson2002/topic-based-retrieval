@@ -1,0 +1,5 @@
+Calculation of Period with Reference to Calendar
+-LRB- 1 -RRB- 
+When a period is defined by the week , month , or year , the period shall be calculated with reference to the calendar week , month , or year .
+-LRB- 2 -RRB- 
+When a period does not commence at the beginning of the week , month , or year , such period shall expire in the last week , month , or year on the day immediately preceding the day which corresponds to the commencement day ; provided , however , that if the period is defined by the month or year and the last month does not contain the corresponding day , the period shall expire on the last day of such month .

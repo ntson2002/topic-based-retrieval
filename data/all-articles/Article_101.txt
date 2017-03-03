@@ -1,0 +1,6 @@
+Defect in Act of Agent
+-LRB- 1 -RRB- 
+In cases the validity of a manifestation of intention should be affected by any absence of intention , any fraud , any duress , or any negligence in knowing or not knowing any particular circumstance , whether or not such fact existed shall be determined with reference to the agent .
+-LRB- 2 -RRB- 
+In cases an agent is entrusted to perform any specific juristic act , if the agent performs such act in accordance with the instructions of the principal , the principal may not assert that the agent did not know a particular circumstance which the principal knew .
+The same shall apply to any circumstance which the principal did not know due to his/her negligence .

@@ -1,0 +1,2 @@
+Subject Matter of Pledges
+Pledges can not be created over a Thing that can not be assigned to others .

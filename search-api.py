@@ -46,8 +46,24 @@ class SearchAPIApplication(web.application):
         func = self.wsgifunc(*middleware)
         return web.httpserver.runsimple(func, ('0.0.0.0', port))
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
+#     app = SearchAPIApplication(urls, globals())
+#     app.run(port=8081)
+
+
+import optparse
+if __name__ == '__main__':
+    optparser = optparse.OptionParser()
+    optparser.add_option(
+        "-p", "--port", default="8081",
+        type='int',
+        help="port"
+    )
+
+    opts = optparser.parse_args()[0]
     app = SearchAPIApplication(urls, globals())
-    app.run(port=8081)
+    print "API server started ... "
+    app.run(port=opts.port)
+
 
 

@@ -1,0 +1,2 @@
+Appointment of Sub-agent by Agent
+A privately appointed agent may not appoint its sub-agent unless the authorization of the principal is obtained or there is an unavoidable reason to do so .

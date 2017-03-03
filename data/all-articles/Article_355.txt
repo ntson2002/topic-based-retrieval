@@ -1,0 +1,2 @@
+Order of Priority of Pledges of Movables
+If more than one pledge is created with respect to the same movables , the order of priority of those pledges shall follow the chronological order of their creation .

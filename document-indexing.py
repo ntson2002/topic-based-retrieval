@@ -27,7 +27,42 @@ def buildTFIDFModel(jsonCorpus, outPath):
     print "model TF-IDF has been saved !!!"
 
 
+import optparse
+
 if __name__ == '__main__':
-    path_json = "data/all_articles.json"
-    buildTFIDFModel(path_json, 'output/model_TFIDF.pkl')
-    buildMDSModel(path_json, 'output/model_TFIDF_MDS.pkl', 500)
+    optparser = optparse.OptionParser()
+    
+    optparser.add_option(
+        "-t", "--index_type", default="tfidf",
+        help="{tfidf,mds} : indexing type"
+    )
+
+    optparser.add_option(
+        "-f", "--file_type", default="json",
+        help="{json,folder} : a json file contain all articles or a folder contains all txt files"
+    )
+    optparser.add_option(
+        "-i", "--input", default="data/all_articles.json",
+        help="path of json file or folder"
+    )
+    optparser.add_option(
+        "-o", "--output", default="output/model_TFIDF.pkl",
+        help="output"
+    )
+
+    # input = "data/all_articles.json"
+    # output = 'output/model_TFIDF.pkl'
+    # buildTFIDFModel(input, output)
+    # buildMDSModel(input, output, 500)
+
+    opts = optparser.parse_args()[0]
+    print opts
+    if opts.file_type == "json":
+        if opts.index_type == "tfidf":
+            buildTFIDFModel(opts.input, opts.output)
+        elif opts.index_type == "mds":
+            buildMDSModel(opts.input, opts.output, 500)
+        else:
+            print "Error index_type : ", opts.index_type
+    else: #opts.file_type == "folder":
+        print "coming soon"

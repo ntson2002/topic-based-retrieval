@@ -1,0 +1,2 @@
+Creation of Pledges over Claims
+When a pledges is to be created over a claim , and the delivery of an instrument evidencing it is required for its assignment , the creation of the pledge shall take effect by the delivery of such instrument .

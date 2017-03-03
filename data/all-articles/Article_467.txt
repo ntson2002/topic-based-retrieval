@@ -1,0 +1,5 @@
+Requirement for Assertion of Assignment of Nominative Claim against Third Parties
+-LRB- 1 -RRB- 
+The assignment of a nominative claim may not be asserted against the applicable obligor or any other third party , unless the assignor gives a notice thereof to the obligor or the obligor has acknowledged the same .
+-LRB- 2 -RRB- 
+The notice or acknowledgement set forth in the preceding paragraph may not be asserted against a third party other than the obligor unless the notice or acknowledgement is made using an instrument bearing a fixed date .

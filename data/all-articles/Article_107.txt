@@ -1,0 +1,5 @@
+Authority of Sub-agent
+-LRB- 1 -RRB- 
+A sub-agent shall represent the principal with respect to any act within the scope of its authority .
+-LRB- 2 -RRB- 
+A sub-agent shall have the same rights and obligations as those of the agent vis-a-vis the principal and third parties .

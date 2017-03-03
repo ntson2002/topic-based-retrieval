@@ -1,0 +1,2 @@
+Effect of Joint Inheritance
+If there are two or more heirs , the inherited property shall belong to those heirs in co-ownership .

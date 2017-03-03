@@ -1,0 +1,2 @@
+
+When a period is defined by the day , week , month , or year , the first day of the period shall not be included for the purpose of the calculation ; provided , however , that , this shall not apply to the cases where the period commences at twelve midnight .
